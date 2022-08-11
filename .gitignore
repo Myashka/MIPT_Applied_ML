@@ -1,6 +1,8 @@
 Train_rev1.csv
 Train_rev1.csv.gz
 *.gz
+*.pth
 .data
 /GloVe/glove.6B.100d.txt
 /GloVe/glove.6B.100d.txt.pt
+*.vec

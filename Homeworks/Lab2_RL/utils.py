@@ -84,4 +84,4 @@ def smoothen(values):
     kernel = gaussian(100, std=100)
     # kernel = np.concatenate([np.arange(100), np.arange(99, -1, -1)])
     kernel = kernel / np.sum(kernel)
-    return convolve(values.cpu(), kernel, 'valid')
+    return convolve(values, kernel, 'valid')
